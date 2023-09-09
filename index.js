@@ -4,7 +4,7 @@ const port = 8000;
 const connectToMongoDB = require("./db");
 
 const mongoUri =
-  "mongodb+srv://ahmedhassan9124:ahmedhassan@ecommercereactcluster.ugwia3h.mongodb.net/?retryWrites=true&w=majority";
+  ""; // write mongo url here
 
 app.use(express.json());
 
